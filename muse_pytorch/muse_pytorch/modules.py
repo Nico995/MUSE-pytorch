@@ -1,7 +1,5 @@
 import os
-from this import d
 from typing import Tuple
-import muse_sc
 
 import numpy as np
 import phenograph
@@ -9,7 +7,7 @@ import pytorch_lightning as pl
 import torch
 from scipy.spatial.distance import pdist
 
-from .blocks import Decoder, Encoder, MultiViewEncoder, WeightMatrix
+from .blocks import Decoder, MultiViewEncoder, WeightMatrix
 from .losses import ReconstructionLoss, TripletLoss, ZIReconstructionLoss
 from .utils import block_print, enable_print
 
