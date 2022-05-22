@@ -4,8 +4,6 @@ This repo is a pytorch-lightning implementation of the official [MUSE: multi-mod
  
 > Bao, F., Deng, Y., Wan, S. et al. Integrative spatial analysis of cell morphologies and transcriptional states with MUSE. Nat Biotechnol (2022). https://doi.org/10.1038/s41587-022-01251-z
 
-This implementation exposes the same fit_predict() interface exposed by the original implementation.
-
 ## Requirements
 
  - numpy==1.22.3
