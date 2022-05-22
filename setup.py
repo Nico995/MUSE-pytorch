@@ -22,7 +22,6 @@ setuptools.setup(
         "Development Status :: 4 - Beta",
         "Environment :: GPU :: NVIDIA CUDA :: 10.2",
         "Natural Language :: English",
-        "Topic :: Scientific/Engineering :: Medical Science Apps",
     ],
     package_dir={"": "muse_pytorch"},
     packages=setuptools.find_packages(where="muse_pytorch"),
