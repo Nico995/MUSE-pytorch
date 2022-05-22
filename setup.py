@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="muse-pytorch",
-    version="0.0.1",
+    version="0.0.2",
     author="Nicola Occelli",
     author_email="nicola.occelli@ulb.be",
     description="Pytorch version of MUSE",
@@ -25,5 +25,5 @@ setuptools.setup(
     ],
     package_dir={"": "muse_pytorch"},
     packages=setuptools.find_packages(where="muse_pytorch"),
-    python_requires=">=3.6",
+    python_requires=">=3.8.5",
 )
